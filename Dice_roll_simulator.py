@@ -62,4 +62,4 @@ resultOfThrow = diceFrequencyCalculator(dice_values)
 x = np.array(list(resultOfThrow.keys()))
 y = np.array(list(resultOfThrow.values()))
 
-plt.hist(x,y)
+plt.hist(x)
